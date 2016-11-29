@@ -3,9 +3,11 @@ import React from 'react'
 import NavBar from './NavBar'
 
 const App = (props) => {
+  // debugger
     return (
         <div>
-            {/* code goes here */}
+            <NavBar />
+            {props.children}
         </div>
     )
 }
